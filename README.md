@@ -31,3 +31,6 @@ telling me you've go tth enew version of a project i just spent 2 weeks writing 
 https://tomcam.github.io/least-github-pages/
 
 sweet jesus understand the least you need to know is ALWAYS the most you need to know. C is elegant. you ms github keep your filthy little hands offa it.
+
+
+as an indication both of my personal nescience and the lack of objective reference in this matter, shortly after posting this source i have determined that the "glFlush();" instruction is not necessary, the program works as well when it is commented out.
