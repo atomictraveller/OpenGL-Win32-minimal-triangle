@@ -11,7 +11,7 @@ the only dependencies are:
 
 #pragma comment(lib, "opengl32.lib")
 
-
+bonus points for reading comment: the three lines with RECT and glViewport can be put in WM_CREATE and WM_SIZE instead of every frame. also bonus, aaaparrently the method for creating a render context for "modern" OpenGL methods hasn't changed since olden times, just the rendering methods. i wish someone had told me that.
 
 i'm new to actually using OpenGL so i don't know if i'm imparting any poor methods because it's taken so long (15 years+) to determine an effective yet minimal implementation of OpenGL. but i left the app run for 20 minutes at 100 fps, hopefully the memory is all being released properly. i'm not sure why, but attempting to SetTimer faster than 100 fps when using OpenGL results in no change.
 
